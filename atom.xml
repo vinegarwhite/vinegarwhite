@@ -6,7 +6,7 @@
   <link href="https://blog.rageniv.website/atom.xml" rel="self"/>
   
   <link href="https://blog.rageniv.website/"/>
-  <updated>2024-06-29T11:43:11.517Z</updated>
+  <updated>2024-06-29T12:05:52.977Z</updated>
   <id>https://blog.rageniv.website/</id>
   
   <author>
@@ -17,38 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
-    <link href="https://blog.rageniv.website/posts/9daba997.html"/>
-    <id>https://blog.rageniv.website/posts/9daba997.html</id>
-    <published>2024-06-29T11:40:38.000Z</published>
-    <updated>2024-06-29T11:43:11.517Z</updated>
+    <title>「水」关于hexo本地和远端不一致的情况</title>
+    <link href="https://blog.rageniv.website/posts/844adea0.html"/>
+    <id>https://blog.rageniv.website/posts/844adea0.html</id>
+    <published>2024-06-29T11:58:27.000Z</published>
+    <updated>2024-06-29T12:05:52.977Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="测试用"><a href="#测试用" class="headerlink" title="测试用"></a>测试用</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;测试用&quot;&gt;&lt;a href=&quot;#测试用&quot; class=&quot;headerlink&quot; title=&quot;测试用&quot;&gt;&lt;/a&gt;测试用&lt;/h3&gt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://blog.rageniv.website/posts/4a17b156.html"/>
-    <id>https://blog.rageniv.website/posts/4a17b156.html</id>
-    <published>2024-06-29T08:18:57.684Z</published>
-    <updated>2024-06-29T09:44:45.295Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="具体情况"><a href="#具体情况" class="headerlink" title="具体情况"></a>具体情况</h3><p>本地部署的博客界面添加了背景图片并导入了大佬的css样式本地使用hexo s运行能够正常显示 但是部署到github page后访问页面则无效果</p><h3 id="问题所在"><a href="#问题所在" class="headerlink" title="问题所在"></a>问题所在</h3><p>后面发现只需要浏览器清理缓存即可 估计是浏览器缓存了一部分文件 导致远端文件其实是正常的 但是浏览器使用了老的文件内容</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h3 id=&quot;具体情况&quot;&gt;&lt;a href=&quot;#具体情况&quot; class=&quot;headerlink&quot; title=&quot;具体情况&quot;&gt;&lt;/a&gt;具体情况&lt;/h3&gt;&lt;p&gt;本地部署的博客界面添加了背景图片并导入了大佬的css样式本地使用hexo s运行能够正常显示 但是部署到github pag</summary>
       
     
     
